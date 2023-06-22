@@ -101,7 +101,8 @@ a {
 
 }
 
-.new-title {
+.new-title,
+.color-pick-title {
     text-align: center;
     margin: 0 0 50px;
     text-transform: uppercase;
@@ -138,6 +139,34 @@ a {
 .new-img {
     margin-left: 190px;
 }
+
+
+.color-pick {
+    padding-bottom: 150px;
+}
+
+
+.color-pick-list {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+.color-pick-img {
+    margin-bottom: 20px;
+}
+
+.color-pick-item h3 {
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0 0 10px;
+}
+
+.color-pick-item p {
+    margin: 0;
+}
+
 
 
 
