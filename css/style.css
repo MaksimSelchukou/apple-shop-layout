@@ -167,7 +167,32 @@ a {
     margin: 0;
 }
 
+.contacts-inner {
+    display: flex;
+    background-color: #574B63;
+    color: #fff;
+}
 
+.contacts-form {
+    width: 100%;
+    padding: 140px 100px;
 
+}
+
+.contacts-title {
+    font-size: 32px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 60px;
+    text-transform: uppercase;
+}
+
+.contacts-input {
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid white;
+    display: block;
+}
 
 /* //87 150 */
