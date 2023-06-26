@@ -49,6 +49,7 @@ a {
   flex-grow: 1;
   flex-basis: 0;
   text-align: right;
+  font-size: 24px;
 }
 
 .menu-item {
@@ -212,6 +213,34 @@ a {
   color: #490E84;
   font-weight: 700;
   padding: 16px 81px;
+  cursor: pointer;
 }
 
 /* //87 150 */
+
+.footer{
+
+  background-color: #0A0A0A;
+  color: #717171;
+  padding: 40px 0;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.footer-inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .footer-inner span {
+  font-size: 14px;
+  flex-grow: 1;
+  flex-basis: 0;
+} */
+
+.footer-link {
+  font-size: 14px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
