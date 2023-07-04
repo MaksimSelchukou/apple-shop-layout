@@ -92,7 +92,7 @@ a {
 }
 
 .new {
-  padding: 87px 0 150px;
+  padding: 87px 0px 150px;
 }
 
 .new-title,
@@ -113,6 +113,7 @@ a {
 
 .new-text {
   /* text-align: left; */
+  /* max-width: 100%; */
 }
 
 .text-item {
@@ -167,6 +168,7 @@ a {
   text-align: center;
 }
 
+
 .contacts-title {
   font-size: 32px;
   line-height: 30px;
@@ -216,6 +218,10 @@ a {
   cursor: pointer;
 }
 
+.contacts-img{
+  max-width: 100%;
+}
+
 /* //87 150 */
 
 .footer{
@@ -243,4 +249,111 @@ a {
   font-size: 14px;
   flex-grow: 1;
   flex-basis: 0;
+}
+
+
+@media (max-width:1280px){
+.headline-img {
+  max-width: 100%;
+}
+
+.new {
+  padding: 87px 10px 150px;
+}
+
+
+.new-img {
+  margin-left: 100px;
+}
+
+
+
+.contacts-inner{
+  display: block;
+}
+
+.contacts-form{
+  width: auto;
+}
+
+.contacts-title{
+  text-align: center;
+}
+
+.contacts-img{
+  width: 100%;
+}
+
+}
+
+@media (max-width:1024px) {
+  .new-img {
+   display: none;
+  }
+
+  .text-item {
+    max-width: 100%;
+  }
+
+  .color-pick-list {
+   flex-wrap: wrap;
+  }
+
+  .color-pick-item {
+    width:50% ;
+    margin-bottom: 20px;
+  }
+
+  .color-pick-img {
+    width: 80%;
+  }
+  
+}
+
+@media (max-width:768px) {
+  .title{
+    font-size: 50px;
+  }
+  .headline-btn {
+    font-size: 18px;
+    line-height: 18px;
+    padding: 21px 95px 18px;
+  }
+
+  .contacts-form {
+    padding: 100px 37px;
+  }
+}
+
+@media (max-width:480px) {
+
+  .title{
+    font-size: 38px;
+  }
+  .headline-btn {
+    font-size: 15px;
+    line-height: 13px;
+    padding: 17px 65px 15px;
+  }
+
+  .color-pick-title {
+    font-size: 28px;
+  }
+
+  .color-pick-item {
+    width:100% ;
+  }
+
+  .color-pick-img {
+    width: 100%;
+  }
+
+  .contacts-title {
+    font-size: 29px;
+    line-height: 28px;
+}
+
+.contacts-form {
+  padding: 100px 23px;
+}
 }
